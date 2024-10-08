@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#section-1 {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+
+#input-container {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    height: 40px;
+  
+}
+
+input {
+    width: 390px;
+    height: 34px;
+    border: none;
+    background-color: rgb(203, 197, 197);
+}
+
+#find-btn {
+cursor: pointer;
+height: 36px;
+
+}
+
+#chef-image {
+    height: 100px;
+    width: 100px;
+}
+
+#section-2 {
+    width: 800px;
+    height: 800px;
+    
+    margin-top: 30px;
+    padding: 10px;
+    display: grid;                           
+    grid-template-columns: repeat(3, 1fr);
+    overflow-y: auto;
+    
+}
+
+.recipe-container {
+    height: auto;
+    width: 250px;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: bisque;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
